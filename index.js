@@ -23,6 +23,6 @@ sql.connect(config.sql)
   console.log(config.port)
 
 
-app.listen(config.port|| 5000, ()=>{
+app.listen(8080, ()=>{
   console.log(`server running on port 5000`)
 })
