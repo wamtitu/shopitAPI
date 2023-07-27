@@ -15,8 +15,8 @@ export const config = {
         user: DB_USERNAME,
         database: DB_DATABASE,
         options: {
-            encrypt: false,
-            trustServerCertificate:true,
+            encrypt: true,
+            trustServerCertificate:false,
         }
     }
 }
