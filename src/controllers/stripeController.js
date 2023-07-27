@@ -4,7 +4,7 @@ import sql from 'mssql'
 import nodeMailer from "nodemailer";
 
 const stripe = Stripe('sk_test_51NTio4KmIVPBBBZEPFzf5pHD66IFAN2Iiv6xp3SpJzw8OzFgMNot5nK0u1rHA8WSo09cNpTjaMfZFaWjzIWJXoqn00jY88NuZl')
-const client = 'http://localhost:5173/'
+const client = 'https://proud-mud-019c18110.3.azurestaticapps.net/'
 
 export const stripeCheckout = async (req, res) => {
   const customer = await stripe.customers.create({
