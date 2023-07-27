@@ -12,7 +12,7 @@ app.use(cors())
 
 sql.connect(config.sql)
   .then(() => {
-    console.log('Connected to the database');
+    console.log('Connected to database');
   })
   .catch((err) => {
     console.error('Error connecting to the database:', err);
